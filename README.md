@@ -68,3 +68,18 @@ Hardware photos, OLED screenshots, and mobile monitoring screenshots will be add
 **Version 0.1 — Work in Progress**
 
 The basic communication and real-time monitoring functions are currently operational.
+
+##  How to Run
+
+1. Start HWiNFO and enable the local web server.
+2. Connect the ESP32 to the PC via USB.
+3. Upload `esp32/ESP32_PC_Monitor.ino` to the ESP32.
+4. Install the required Python packages:
+
+   `pip install -r python/requirements.txt`
+
+5. Run the Python monitoring script:
+
+   `python python/pc_monitor.py`
+
+6. The ESP32 OLED will display the PC hardware information in real time.
