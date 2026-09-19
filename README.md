@@ -61,7 +61,17 @@ iPhone Browser
 
 ## 📷 Project Images
 
-Hardware photos, OLED screenshots, and mobile monitoring screenshots will be added as the project develops.
+### Hardware Setup
+
+The ESP32 receives real-time PC hardware data and displays it on the OLED.
+
+![ESP32 PC Monitor Hardware](images/hardware_setup.jpg)
+
+### Real-Time OLED Monitoring
+
+CPU and GPU temperature and usage are displayed in real time.
+
+![ESP32 OLED Monitoring](images/Oled_monitor.jpg)
 
 ## 📖 Project Status
 
